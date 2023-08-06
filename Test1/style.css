@@ -106,7 +106,8 @@ img{
     flex-direction: row;
     justify-content: space-evenly;
     padding-left: 50px;
-    margin-top: 25px;
+    margin-top: 15px;
+    padding-top: 15px;
 }
 .text{
     display: flex;
@@ -157,15 +158,27 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 50px;
+    background-color: #efefef;
 }
-#delivery-container{
+#about-container{
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
 }
-.van{
-    height: 500px;
-    width: 500px;
+#about-button{
+    align-self: center;
+    margin-top: 30px;
+}
+.flex-container4-para{
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+.eatery{
+    height: 600px;
+    width: 600px;
+    border-radius: 300px;
+    /* margin-bottom: 5px; */
 }
 .flex-container5{
     display: flex;
